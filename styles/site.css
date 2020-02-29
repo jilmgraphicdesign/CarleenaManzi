@@ -1,7 +1,6 @@
 body{
-	margin: 0;
-	background: 
-    linear-gradient(to right, #b41b17 20%, black 55%);
+	margin: 0px;
+	background:  linear-gradient(to right, #b41b17 20%, black 55%);
 }
 
 h1{
@@ -69,14 +68,21 @@ header{
 	justify-content: space-between;
 	padding: 10px;
 	padding-bottom: 0;
-	margin-bottom: -100px;
 	margin-top: -70px;
+	margin-bottom: -200px;
+	
+}
+
+.imagebox{
+	display: flex;
+	justify-content: center;
+	margin-bottom: -100px;
+
 }
 
 header img{
-	 width: 100%;
+	 width: 40%;
  	 height: auto;
-
 }
 
 .acting{
@@ -124,18 +130,20 @@ ul{
 	padding: 10px;
 	padding-bottom: 0;
 	z-index: -1;
-	height: 98px;
-	
+	height: 100px;
+	margin-bottom: -10px;
 }
 
 .whitebackground2{
-	background: white;
-	border-style: double;
-	border-width: 10px;
-	border-top-style: none;
 	padding: 10px;
 	position: relative;
 	z-index: -2;
+	background: white;
+	border-style: double;
+	border-width: 10px;
+	border-bottom-style: none;
+	border-top-style: none;
+	margin-top: -10px;
 	
 }
 h2{
@@ -149,6 +157,33 @@ h3{
 section{
 	margin-top: 50px;
 }
+
+.fillerbox{
+	text-align: center;
+    background: white;
+	border-style: double;
+	border-width: 10px;
+	border-top-style: none;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	z-index: -3;
+	height: 500px;
+}
 footer{
 	text-align: center;
+    background: white;
+	border-style: double;
+	border-width: 10px;
+	border-top-style: none;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
 }
+
+@media only screen and (max-height: ) {
+  body {
