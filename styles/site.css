@@ -1,9 +1,64 @@
 body{
-	background: linear-gradient(to right, #b41b17 20%, black 55%);
+	margin: 0;
+	background: 
+    linear-gradient(to right, #b41b17 20%, black 55%);
 }
+
 h1{
 	text-align: center;
 	color: white;
+	font-size: 130px;
+	font-family: 'Six Caps' ;
+	text-transform: uppercase;
+	
+}
+
+header{
+	position: sticky;
+	top:0;
+	margin-top: -100px;
+	background:
+	repeating-linear-gradient(220deg, rgba(0, 0, 0, 0.1) 40px,
+        rgba(0, 0, 0, 0.1) 200px, rgba(0, 0, 0, 0.1) 120px,
+        rgba(225, 255, 225, 0.1) 160px, rgba(0, 0, 0, 0.01) 200px,
+        rgba(225, 225, 225, 0.01) 240px, rgba(0, 0, 0, 0.1) 280px,
+        rgba(0, 0, 0, 0.1) 300px),
+      repeating-linear-gradient(-185deg, rgba(0, 0, 0, 0.1) 30px,
+        rgba(0, 0, 0, 0.1) 60px, rgba(0, 0, 0, 0.1) 300px,
+        rgba(0, 0, 0, 0.1) 120px, rgba(0, 0, 0, 0.1) 150px,
+        rgba(0, 0, 0, 0.01) 180px, rgba(0, 0, 0, 0.01) 210px,
+        rgba(0, 0, 0, 0.1) 230px),
+       repeating-linear-gradient(23deg, rgba(0, 0, 0, 0.1) 400px,
+        rgba(0, 0, 0, 0.1) 300px, rgba(0, 0, 0, 0.1) 90px,
+        rgba(0, 0, 0, 0.1) 120px, rgba(0, 0, 0, 0.1) 150px,
+        rgba(0, 0, 0, 0.1) 180px, rgba(0, 0, 0, 0.1) 210px,
+        rgba(255, 225, 225, 0.01) 230px),
+       repeating-linear-gradient(200deg, rgba(0, 0, 0, 0.1) 40px,
+        rgba(255, 255, 255, 0.01) 80px, rgba(255, 255, 255, 0.01) 120px,
+        rgba(225, 255, 225, 0.1) 160px, rgba(225, 225, 255, 0.1) 200px,
+        rgba(225, 225, 225, 0.01) 200px, rgba(225, 225, 225, 0.01) 280px,
+        rgba(255, 225, 225, 0.1) 300px),
+      repeating-linear-gradient(-90deg, rgba(0, 0, 0, 0.1) 30px,
+        rgba(0, 0, 0, 0.1) 60px, rgba(0, 0, 0, 0.1) 90px,
+        rgba(0, 0, 0, 0.1) 120px, rgba(0, 0, 0, 0.01) 150px,
+        rgba(0, 0, 0, 0.01) 180px, rgba(0, 0, 0, 0.1) 210px,
+        rgba(0, 0, 0, 0.1) 230px),
+       repeating-linear-gradient(32deg, rgba(0, 0, 0, 0.1) 400px,
+        rgba(0, 0, 0, 0.01) 300px, rgba(0, 0, 0, 0.01) 90px,
+        rgba(0, 0, 0, 0.01) 120px, rgba(0, 0, 0, 0.01) 150px,
+        rgba(0, 0, 0, 0.01) 180px, rgba(0, 0, 0, 0.1) 210px,
+        rgba(0, 0, 0, 0.01) 230px),
+       repeating-linear-gradient(57deg, rgba(0, 0, 0, 0.1) 40px,
+        rgba(0, 0, 0, 0.1) 200px, rgba(0, 0, 0, 0.01) 120px,
+        rgba(225, 255, 225, 0.01) 160px, rgba(0, 0, 0, 0.1) 200px,
+        rgba(225, 225, 225, 0.1) 240px, rgba(0, 0, 0, 0.1) 280px,
+        rgba(0, 0, 0, 0.01) 300px),
+       repeating-linear-gradient(-57deg, rgba(0, 0, 0, 0.01) 10px,
+        rgba(0, 0, 0, 0.1) 120px, rgba(0, 0, 0, 0.01) 20px,
+        rgba(225, 255, 225, 0.01) 60px, rgba(0, 0, 0, 0.1) 101px,
+        rgba(225, 225, 225, 0.01) 240px, rgba(0, 0, 0, 0.1) 80px,
+        rgba(0, 0, 0, 0.01) 190px),
+       linear-gradient(to right, #b41b17 20%, black 55%);
 }
 
 .header_design{
@@ -11,21 +66,77 @@ h1{
 	flex-direction: row;
 	align-content: space-around;
 	justify-content: space-between;
+	padding: 10px;
+	padding-bottom: 0;
+	margin-bottom: -100px;
+	margin-top: -70px;
+}
 
+header img{
+	 width: 100%;
+ 	 height: auto;
+
+}
+
+.acting{
+	text-align: right;
+}
+
+nav a{
+	font-size: 20px;
+	text-decoration: none;
+	font-family: 'Archivo Narrow' ;
+	text-transform: uppercase;
+
+}
+
+.acting a{
+		color: grey;
+}
+
+.cosplay a{
+		color: black;
+		font-weight: bold;
+}
+
+nav a:hover{
+	color: white;
+	text-decoration: underline;
 }
 
 li{
 	color: gray;
 }
 
-article{
-	background: white;
-	border-style: groove;
-	padding: 10px;
-	margin-left: -8px;
-	margin-right: -6px;
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0 20px;
+	margin-top: 100px;
 }
 
+.whitebackground1{
+	background: white;
+	border-style: double;
+	border-width: 10px;
+	border-bottom-style: none;
+	padding: 10px;
+	padding-bottom: 0;
+	z-index: -1;
+	height: 98px;
+	
+}
+
+.whitebackground2{
+	background: white;
+	border-style: double;
+	border-width: 10px;
+	border-top-style: none;
+	padding: 10px;
+	position: relative;
+	z-index: -2;
+	
+}
 h2{
 	display: inline-block;
 }
@@ -34,7 +145,9 @@ h3{
 	float: right;
 }
 
+section{
+	margin-top: 50px;
+}
 footer{
 	text-align: center;
-	color: gray;
 }
