@@ -1,0 +1,40 @@
+body{
+	background: linear-gradient(to right, #b41b17 20%, black 55%);
+}
+h1{
+	text-align: center;
+	color: white;
+}
+
+.header_design{
+	display: flex;
+	flex-direction: row;
+	align-content: space-around;
+	justify-content: space-between;
+
+}
+
+li{
+	color: gray;
+}
+
+article{
+	background: white;
+	border-style: groove;
+	padding: 10px;
+	margin-left: -8px;
+	margin-right: -6px;
+}
+
+h2{
+	display: inline-block;
+}
+
+h3{
+	float: right;
+}
+
+footer{
+	text-align: center;
+	color: gray;
+}
