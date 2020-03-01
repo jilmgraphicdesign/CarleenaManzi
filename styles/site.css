@@ -92,7 +92,7 @@ a{
 
 }
 
-header img{
+.imagebox img{
 	 width: 40%;
 	 max-width: 400px;
  	 height: auto;
@@ -155,6 +155,7 @@ ul{
 	margin-top: 100px;
 	
 }
+
 .whitebackground3{
 	background: white;
 	border-style: double;
@@ -164,6 +165,17 @@ ul{
 	padding-bottom: 0;
 	margin-bottom: -10px;
 	margin-top: 200px;
+}
+
+.whitebackgroundcostume{
+	background: white;
+	border-style: double;
+	border-width: 10px;
+	border-bottom-style: none;
+	padding: 10px;
+	padding-bottom: 0;
+	margin-bottom: -10px;
+	margin-top: 20px;
 }
 
 h2{
@@ -205,6 +217,41 @@ footer{
 	margin: 0 auto;
 	box-sizing: border-box;
 }
+
+.notes{
+	text-align: center;
+	color: red;
+}
+
+.cosplays{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+figcaption{
+	font-family: 'Archivo Narrow' ;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+
+.costumes{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.costumeimgs figcaption{
+	color: white;
+	font-family: 'Six Caps' ;
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-size: 50px;
+}
+
 
 @media only screen and (max-height: ) {
   body {
