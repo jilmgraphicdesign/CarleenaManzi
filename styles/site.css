@@ -80,6 +80,10 @@ h1{
 	
 }
 
+a{
+	text-decoration: none;
+}
+
 .imagebox{
 	display: flex;
 	justify-content: center;
@@ -150,6 +154,16 @@ ul{
 	border-top-style: none;
 	margin-top: 100px;
 	
+}
+.whitebackground3{
+	background: white;
+	border-style: double;
+	border-width: 10px;
+	border-bottom-style: none;
+	padding: 10px;
+	padding-bottom: 0;
+	margin-bottom: -10px;
+	margin-top: 200px;
 }
 
 h2{
