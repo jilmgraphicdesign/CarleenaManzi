@@ -3,16 +3,6 @@ body{
 	background:  linear-gradient(to right, #b41b17 20%, black 55%);
 }
 
-h1{
-	text-align: center;
-	color: white;
-	font-size: 130px;
-	font-family: 'Six Caps' ;
-	text-transform: uppercase;
-	font-weight: lighter;
-	
-}
-
 header{
 	position: sticky;
 	top:0;
@@ -64,12 +54,25 @@ header{
 .header_design{
 	display: flex;
 	flex-direction: row;
-	align-content: space-around;
+	align-content: space-between;
 	justify-content: space-between;
-	padding: 20px;
-	padding-bottom: 0;
-	margin-top: -70px;
-	margin-bottom: -200px;
+	margin-top: -145px;
+	background: rgba(225, 225, 225, 0.1);
+	
+}
+
+.nav{
+	margin: 10px;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	font-size: 130px;
+	font-family: 'Six Caps' ;
+	text-transform: uppercase;
+	font-weight: lighter;
+	margin: 0 auto;
 	
 }
 
@@ -77,6 +80,7 @@ header{
 	display: flex;
 	justify-content: center;
 	margin-bottom: -100px;
+	margin-top: 10px;
 
 }
 
@@ -119,8 +123,7 @@ li{
 ul{
 	list-style: none;
 	padding: 0;
-	margin: 0 20px;
-	margin-top: 100px;
+	margin: 0;
 }
 
 .whitebackground1{
@@ -130,23 +133,21 @@ ul{
 	border-bottom-style: none;
 	padding: 10px;
 	padding-bottom: 0;
-	z-index: -1;
 	height: 100px;
 	margin-bottom: -10px;
 }
 
 .whitebackground2{
 	padding: 10px;
-	position: relative;
-	z-index: -2;
 	background: white;
 	border-style: double;
 	border-width: 10px;
 	border-bottom-style: none;
 	border-top-style: none;
-	margin-top: -10px;
+	margin-top: 100px;
 	
 }
+
 h2{
 	display: inline-block;
 }
@@ -160,19 +161,20 @@ section{
 }
 
 .fillerbox{
-	text-align: center;
+	    text-align: center;
     background: white;
-	border-style: double;
-	border-width: 10px;
-	border-top-style: none;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	margin: 0 auto;
-	box-sizing: border-box;
-	z-index: -3;
-	height: 50%;
+    border-style: double;
+    border-width: 10px;
+    border-top-style: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    z-index: -3;
+    height: 50%;
 }
+
 footer{
 	text-align: center;
     background: white;
