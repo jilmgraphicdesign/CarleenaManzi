@@ -56,8 +56,12 @@ header{
 	flex-direction: row;
 	align-content: space-between;
 	justify-content: space-between;
-	margin-top: -145px;
-	background: rgba(225, 225, 225, 0.1);
+	margin-top: -148px;
+	border: solid;
+	border-color: rgba(225,225,225,0.1);
+	border-left-style: none;
+	border-right-style: none;
+	background: linear-gradient(to right, rgba(180,27,23,0.2) 20%, rgba(0,0,0,0.2) 55% );
 	
 }
 
