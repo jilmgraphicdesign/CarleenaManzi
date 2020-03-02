@@ -321,15 +321,17 @@ figcaption{
 .abandonquest_text{
 	width: 500px;
 }
-.abandonquest_text a{
+.aqlink{
 	color: rgba(180,27,23);
+	padding: 5px;
+	border: solid;
+	border-color: white;
 }
 
-.abandonquest_text a:hover{
-	font-weight: bolder;
+.aqlink:hover{
 	border: solid;
-	border-color: rgba(180,27,23);
 	padding: 5px;
+	border-color: rgba(180,27,23);
 }
 
 h4{
